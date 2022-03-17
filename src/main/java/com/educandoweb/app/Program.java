@@ -25,6 +25,8 @@ public class Program {
         em.persist(p3);
         //fechando a conexão
         em.getTransaction().commit();
+        em.close();
+        emf.close();
 
         System.out.println("The objects have been saved!");
     }
