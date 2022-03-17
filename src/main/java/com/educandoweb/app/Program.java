@@ -32,7 +32,7 @@ public class Program {
         System.out.println("Person found:" + p);
 
         //deletando dado no banco
-        //rodar comentando tudo acima
+        //IMPORTANTE: para deletar precisamos pesquisar o dado antes!
         em.getTransaction().begin();
         em.remove(p);
         em.getTransaction().commit();
