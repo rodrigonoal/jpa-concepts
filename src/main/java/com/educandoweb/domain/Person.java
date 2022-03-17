@@ -20,7 +20,7 @@ public class Person implements Serializable {
     @NonNull
     private Integer id;
     @NonNull
-    private String nome;
+    private String name;
     @NonNull
     private String email;
 }
